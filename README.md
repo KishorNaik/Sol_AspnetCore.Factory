@@ -14,7 +14,7 @@ PM> Install-Package Framework.AspnetCore.Factory -Version 1.0.0
 ```
 > dotnet add package Framework.AspnetCore.Factory --version 1.0.0
 ```
-#### Using .Net CLI:
+#### Using Package Reference:
 ```
 <PackageReference Include="Framework.AspnetCore.Factory" Version="1.0.0" />
 ```
