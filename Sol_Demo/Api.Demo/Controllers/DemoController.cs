@@ -26,8 +26,6 @@ namespace Api.Demo.Controllers
         {
             var response = executeFactory.Execute<IDemo1>();
 
-            response.Test = 10;
-
             return base.Ok(response);
         }
 
@@ -35,8 +33,6 @@ namespace Api.Demo.Controllers
         public IActionResult Demo2()
         {
             var response = (executeFactory.Execute<IDemo2>()).TestDemo();
-
-            var response1 = executeFactory.Execute<IDemo1>();
 
             return base.Ok(response);
         }

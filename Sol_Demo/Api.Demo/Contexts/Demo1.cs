@@ -9,8 +9,6 @@ namespace Api.Demo.Contexts
     public interface IDemo1
     {
         String TestDemo();
-
-        int Test { get; set; }
     }
 
     public class Demo1 : IDemo1
@@ -20,7 +18,5 @@ namespace Api.Demo.Contexts
             Debug.WriteLine("Demo 1");
             return "Demo 1";
         }
-
-        public int Test { get; set; }
     }
 }
