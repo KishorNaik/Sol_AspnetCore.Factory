@@ -18,5 +18,7 @@ namespace Api.Demo.Contexts
             Debug.WriteLine("Demo 1");
             return "Demo 1";
         }
+
+        public int Test { get; set; }
     }
 }

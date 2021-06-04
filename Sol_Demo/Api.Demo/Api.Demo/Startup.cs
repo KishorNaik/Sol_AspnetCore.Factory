@@ -31,9 +31,8 @@ namespace Api.Demo
 
             services.AddFactory((x) =>
             {
-                x
-                .AddSingleton<IDemo1, Demo1>()
-                .AddTransient<IDemo2, Demo2>();
+                x.AddTransient<IDemo1, Demo1>();
+                x.AddSingleton<IDemo2, Demo2>();
             });
 
             services.AddSwaggerGen(c =>

@@ -24,7 +24,7 @@ namespace Api.Demo.Controllers
         [HttpGet("demo1")]
         public IActionResult Demo1()
         {
-            var response = executeFactory.Execute<IDemo1>();
+            var response = executeFactory.Execute<IDemo1>().TestDemo();
 
             return base.Ok(response);
         }
