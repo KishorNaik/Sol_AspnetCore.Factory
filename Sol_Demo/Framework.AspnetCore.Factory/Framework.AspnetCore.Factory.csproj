@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A Library for implement the factory method in asp.net core.</Description>
+    <Authors>Kishor Naik</Authors>
+    <PackageProjectUrl>https://github.com/KishorNaik/Sol_AspnetCore.Factory</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/KishorNaik/Sol_AspnetCore.Factory</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>factory, aspnetcore</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
