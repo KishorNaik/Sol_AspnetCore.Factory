@@ -1,5 +1,5 @@
 # Asp.net Core Factory.
-A Library for implement the factory method in asp.net core.
+A Library for implement the factory method for Dependency injection in asp.net core.
 
 ### Step 1
 Add following nuget package in your asp.net core Solution.
